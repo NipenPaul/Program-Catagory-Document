@@ -3,5 +3,6 @@
 1. Deque and Pair
 https://codeforces.com/contest/1719/problem/C
 
-
+2. Bitmask,math, greedy
+https://codeforces.com/contest/1719/problem/D2
 
