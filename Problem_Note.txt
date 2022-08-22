@@ -1,0 +1,7 @@
+**Data Structure**
+
+1. Deque and Pair
+https://codeforces.com/contest/1719/problem/C
+
+
+
