@@ -1,4 +1,4 @@
-**Data Structure**
+**Data Structure **
 
 1. Deque and Pair
 https://codeforces.com/contest/1719/problem/C
@@ -11,7 +11,13 @@ https://codeforces.com/contest/1675/problem/E
 
 
 
-** Graph and Tree**
+** Graph and Tree **
 
 1. Tree and dfs
 https://codeforces.com/contest/1675/problem/F
+
+
+** Binary Search **
+
+1. binary search and frequncy
+https://codeforces.com/contest/1077/problem/D
