@@ -21,3 +21,9 @@ https://codeforces.com/contest/1675/problem/F
 
 1. binary search and frequncy
 https://codeforces.com/contest/1077/problem/D
+
+
+** Number Theory **
+
+1. Count divisor
+https://codeforces.com/contest/236/problem/B
