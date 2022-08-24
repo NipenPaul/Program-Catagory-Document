@@ -27,3 +27,6 @@ https://codeforces.com/contest/1077/problem/D
 
 1. Count divisor
 https://codeforces.com/contest/236/problem/B
+
+2. LCM
+https://codeforces.com/contest/236/problem/C
