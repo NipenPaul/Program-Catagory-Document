@@ -9,6 +9,9 @@ https://codeforces.com/contest/1719/problem/D2
 3. string and map
 https://codeforces.com/contest/1675/problem/E
 
+4. 2d Cumalative Sum
+https://codeforces.com/contest/1722/problem/E
+
 
 
 ** Graph and Tree **
