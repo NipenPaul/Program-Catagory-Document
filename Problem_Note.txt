@@ -12,6 +12,9 @@ https://codeforces.com/contest/1675/problem/E
 4. 2d Cumalative Sum
 https://codeforces.com/contest/1722/problem/E
 
+5. map or priortiy queue
+https://codeforces.com/contest/1728/problem/C
+
 
 
 ** Graph and Tree **
