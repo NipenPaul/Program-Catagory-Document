@@ -15,6 +15,12 @@ https://codeforces.com/contest/1722/problem/E
 5. map or priortiy queue
 https://codeforces.com/contest/1728/problem/C
 
+6. Two Pointer
+https://codeforces.com/contest/1729/problem/D
+
+7. Interactive Problem
+https://codeforces.com/contest/1729/problem/E
+
 
 
 ** Graph and Tree **
@@ -33,6 +39,9 @@ https://codeforces.com/contest/1077/problem/D
 
 1. Count divisor
 https://codeforces.com/contest/236/problem/B
+
+2. Math
+https://codeforces.com/contest/1729/problem/F
 
 2. LCM
 https://codeforces.com/contest/236/problem/C
