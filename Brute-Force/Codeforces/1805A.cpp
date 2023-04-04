@@ -53,32 +53,32 @@ const int N = (int) 1e5+5;
 
 
 void solution(int tc){
-	ll n; cin >> n;
-	vector<ll> v(n);
-	for(ll i = 0; i < n; i++){
-		cin >> v[i];
-	}
-	for(ll i = 0; i < 256; i++){
-		ll x = 0;
-		for(ll j = 0; j < n; j++){
-			ll b = v[j]^i;
-			x ^= b;
-		}
-		if(x == 0){
-			cout << i << endl;
-			return;
-		}
-	}
-	cout << -1 << endl;
+   ll n; cin >> n;
+   vector<ll> v(n);
+   for(ll i = 0; i < n; i++){
+      cin >> v[i];
+   }
+   for(ll i = 0; i < 256; i++){
+      ll x = 0;
+      for(ll j = 0; j < n; j++){
+         ll b = v[j]^i;
+         x ^= b;
+      }
+      if(x == 0){
+         cout << i << endl;
+         return;
+      }
+   }
+   cout << -1 << endl;
 }
 
 
 int main(){
-	Faster;
-	int tc = 1; 
-	cin >> tc;
-	for(int i = 1; i <= tc; i++){
-		solution(i);
-	}
-	return 0;
+   Faster;
+   int tc = 1; 
+   cin >> tc;
+   for(int i = 1; i <= tc; i++){
+      solution(i);
+   }
+   return 0;
 }
