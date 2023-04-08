@@ -20,6 +20,7 @@ void solution(){
   cout.flush();
 }
 int main(){
+  // Interactive program must be comment out faster lines otherwise given Idleness
   //ios::sync_with_stdio(false);
   //cin.tie(nullptr);
   int t = 1;
