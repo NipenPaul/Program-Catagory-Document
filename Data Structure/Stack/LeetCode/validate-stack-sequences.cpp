@@ -16,7 +16,6 @@ public:
                 st.push(pushed[j]);
                 j++;
             }
-            cout << endl;
             if(!st.empty() && st.top() == popped[i]){
                 st.pop();
             }
