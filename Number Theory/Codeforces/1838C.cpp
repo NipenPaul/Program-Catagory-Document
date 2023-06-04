@@ -27,10 +27,16 @@ void solution(){
         vec[i][j] = k++;
       }
     }
-  }else{
+  }else if(isPrime(n)){
     for(int i = 1; i <= n; i += 1){
       for(int j = 1; j <= m; j++){
         vec[i][j] = k++;
+      }
+    }
+  }else{
+    for(int i = 1; i <= m; i += 1){
+      for(int j = 1; j <= n; j++){
+        vec[j][i] = k++;
       }
     }
   } 
