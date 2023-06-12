@@ -9,9 +9,6 @@ private:
   int id;
   float cgp;
 public:
-  constructor(){
-
-  }
   constructor(string name, int id, float cgp){
     this->name = name;
     this->id = id;
@@ -38,8 +35,8 @@ void constructor::display(){
 int main(){
   constructor cons("Nipen Paul", 174038, 3.13);
   cons.display();
-  constructor cp = cons, cc;
-  cc = cons;
+  constructor cp = cons;
+  constructor cc = cp;
   cc.display();
   cp.display();
   return 0;
