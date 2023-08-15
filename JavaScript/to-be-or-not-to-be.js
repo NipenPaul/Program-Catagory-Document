@@ -5,11 +5,11 @@
 var expect = function(val) {
    return {
        toBe: (n) =>{
-           if(n == val) return true;
+           if(n === val) return true;
            else throw new Error(("Not Equal"))
        },
        notToBe: (n) =>{
-           if(val == n) throw new Error("Equal");
+           if(val === n) throw new Error("Equal");
            else return true;
        }
    }
