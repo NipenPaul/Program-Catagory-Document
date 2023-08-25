@@ -9,6 +9,10 @@ void solution(){
   for(int i = 0; i < n; i++){
     cin >> v[i];
   }
+  if(v[0] != n){
+    cout << "NO" << endl;
+    return;
+  }
   vector<int> ans;
   for(int i = n-1; i >= 0; i--){
     while(ans.size() < v[i]){
