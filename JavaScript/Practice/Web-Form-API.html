@@ -16,12 +16,15 @@
             // if(!input.checkValidity()){
             //     document.getElementById('demo').innerHTML = input.validationMessage;
             // }
+            const text =  document.getElementById('demo');
             if(input.validity.rangeOverflow){
-                document.getElementById('demo').innerHTML = "Value is Overflow";
+                text.innerHTML = "Value is Overflow";
             }else if(input.validity.rangeUnderflow){
-                document.getElementById('demo').innerHTML = "Value is Underflow";
+                text.innerHTML = "Value is Underflow";
             }else if(input.validity.valueMissing){
-                document.getElementById('demo').innerHTML = "Value is missing..";
+               text.innerHTML = "Value is missing..";
+            }else{
+                text.innerHTML = "Value is OK!";
             }
         }
     </script>
