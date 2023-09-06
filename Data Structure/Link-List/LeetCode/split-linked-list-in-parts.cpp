@@ -26,7 +26,7 @@ public:
             ListNode* last = nullptr;
             int l = 0;
             if(extra > 0){
-                l = 1;/*  */
+                l = 1;
                 extra--;
             }
             for(int j = 0; j < sz+l; j++){
