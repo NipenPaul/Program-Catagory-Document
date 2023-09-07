@@ -1,2 +1,0 @@
-# Codeforces
-Problem Solution Code
