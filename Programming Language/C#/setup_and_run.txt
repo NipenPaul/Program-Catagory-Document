@@ -1,0 +1,9 @@
+// install C# in Terminal
+sudo apt-get install mono-complete
+
+// compile program
+mcs fileName.cs
+
+// run program
+mono fileName.exe
+
