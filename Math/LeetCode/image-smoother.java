@@ -1,7 +1,7 @@
 class Solution {
     public int[][] imageSmoother(int[][] img) {
         int m = img.length;
-        int n = img.length;
+        int n = img[0].length;
         int [][] dr = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
         int [][] ans = new int[m][n];
         for(int i = 0; i < m; i++){
