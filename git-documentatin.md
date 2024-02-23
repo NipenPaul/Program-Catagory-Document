@@ -9,3 +9,6 @@
 
  ## Push remote from branch
  $ git push -u remote-name branch-name
+
+$ git remote add remote-name "link-ssh"
+$ git remote -v
